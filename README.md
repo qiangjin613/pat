@@ -3,3 +3,6 @@
 
 ### Basic Level
 语言：Java 8
+
+### 技巧
+1. String -> char[]: 使用 toCharArray() 将字符串转换为 char[] 进行操作
