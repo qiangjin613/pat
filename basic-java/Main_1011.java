@@ -5,7 +5,6 @@ import java.util.Scanner;
  */
 public class Main_1011 {
     public static void main(String[] args) {
-        System.out.println(Long.MAX_VALUE + " " + Long.MIN_VALUE);
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         long a, b, c;
