@@ -26,9 +26,6 @@ public class Main_1016 {
     }
 }
 
-/**
- * 出现超时，也可能因平台提交人数过多导致，待进一步提交测试
- */
 class Main_2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
