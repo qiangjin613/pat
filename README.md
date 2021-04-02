@@ -10,3 +10,4 @@
 
 ### 技巧
 1. String -> char[]: 使用 toCharArray() 将字符串转换为 char[] 进行操作; 也可以使用 charAt() 来实现同样操作(推荐)
+2. 针对有很多输入导致超时的时候，可以使用 BufferedReader 读取输入，并使用 readLine() 方法进行处理，可有效减少读取过慢和读取的参数异常问题
