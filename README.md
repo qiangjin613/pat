@@ -10,7 +10,7 @@
 
 ### 技巧
 1. String -> char[]: 使用 `toCharArray()` 将字符串转换为 char[] 进行操作; 也可以使用 `charAt()` 来实现同样操作(推荐)
-2. 针对有很多输入导致超时的时候，可以使用 BufferedReader 读取输入，并使用 `readLine()` 方法进行处理，可有效减少读取过慢和读取的参数异常问题（10^4 在 PAT 服务器大概需要 250ms）
+2. 针对有很多输入导致超时的时候，可以使用 BufferedReader 读取输入，并使用 `readLine()` 方法进行处理，可有效减少读取过慢和读取的参数异常问题（10^4 在 PAT 服务器大概需要 250ms；对于 10^4 输入一次输出 200ms 多次运行可能会AC）
 3. 针对 Scanner 的 `nextXxxx()` 与 `nextLine()` 连用的情况，需要在两者之间添加 `nextLine()` 过滤掉将 `nextXxxx()` 的结束符过滤掉
 4. 四舍五入与截断输出
    ```java
