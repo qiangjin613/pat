@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * 1003 我要通过！ (20 分)
+ */
 public class Main_1003 {
 
     /**
