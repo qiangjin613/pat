@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * 1082 射击比赛 (20 分)
  */
-public class Main_1082_AC {
+public class Main_1082 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());

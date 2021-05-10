@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 1077 互评成绩计算 (20 分)
  * 注：最后一个点可能会超时，多次提交即可 AC
  */
-public class Main_1077_AC {
+public class Main_1077 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] input = in.nextLine().split(" ");

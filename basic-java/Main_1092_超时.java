@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * 1092 最好吃的月饼 (20 分)
  */
-public class Main_1092_15 {
+public class Main_1092_超时 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split(" ");
