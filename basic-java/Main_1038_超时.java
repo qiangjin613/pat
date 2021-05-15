@@ -7,11 +7,11 @@ import java.util.Map;
 /**
  * 1038 统计同成绩学生 (20 分)
  */
-public class Main_1038 {
+public class Main_1038_超时 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        // 这里可以忽略学生总数 N 直接读取第二行数据即可
+        // 忽略学生总数 N 直接读取第二行数据
         br.readLine();
         String[] input = br.readLine().split(" ");
         // stats[i] 代表分数为 i 的学生数有多少个
