@@ -12,6 +12,10 @@
 1. String -> char[]: 使用 `toCharArray()` 将字符串转换为 char[] 进行操作; 也可以使用 `charAt()` 来实现同样操作(推荐)
 2. 针对有很多输入导致超时的时候，可以使用 BufferedReader 读取输入，并使用 `readLine()` 方法进行处理，可有效减少读取过慢和读取的参数异常问题（10^4 在 PAT 服务器大概需要 250ms；对于 10^4 输入一次输出 200ms 多次运行可能会AC）
 3. StreamTokenizer 要比 BufferedReader 快一些（如题：`1063 计算谱半径 (20 分)`）
+   ```java
+   // BufferedReader 的报装不可以去掉，否则会影响 io 速度
+   StreamTokenizer st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+   ``` 
 4. 针对 Scanner 的 `nextXxxx()` 与 `nextLine()` 连用的情况，需要在两者之间添加 `nextLine()` 过滤掉将 `nextXxxx()` 的结束符过滤掉
 5. 四舍五入与截断输出
    ```java
@@ -23,6 +27,7 @@
 7. 对于输出：用指定大小的 StringBuilder 构建结果一次输出，要比在循环中输出多次结果要快一些（如：Basic Level 1017）
 8. 对于输出：要求“行首尾不得有多余空格”，可以使用类似 `System.out.format("%s%d", flag? " ": "", i);` 解决
 9. 对 ASCII 的秒用，如 `1033 旧键盘打字 (20 分)`
+10. 类似于“排雷”、“跳棋”的地图中范围查找问题，详情查看 `1068 万绿丛中一点红 (20 分)`
 
 
 ### 有坑和需要注意的题目
