@@ -13,7 +13,7 @@
 2. 针对有很多输入导致超时的时候，可以使用 BufferedReader 读取输入，并使用 `readLine()` 方法进行处理，可有效减少读取过慢和读取的参数异常问题（10^4 在 PAT 服务器大概需要 250ms；对于 10^4 输入一次输出 200ms 多次运行可能会AC）
 3. StreamTokenizer 要比 BufferedReader 快一些（如题：`1063 计算谱半径 (20 分)`）
    ```java
-   // BufferedReader 的报装不可以去掉，否则会影响 io 速度
+   // BufferedReader 的包装不可以去掉，否则会影响 io 速度
    StreamTokenizer st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
    ``` 
 4. 针对 Scanner 的 `nextXxxx()` 与 `nextLine()` 连用的情况，需要在两者之间添加 `nextLine()` 过滤掉将 `nextXxxx()` 的结束符过滤掉
