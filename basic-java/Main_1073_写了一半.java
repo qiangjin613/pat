@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * 1073 多选题常见计分法 (20 分)
  */
-public class Main_1073 {
+public class Main_1073_写了一半 {
     public static void main(String[] args) throws IOException {
         // 录入数据：
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
