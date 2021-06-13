@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
 import java.util.Arrays;
+import java.util.Formatter;
 
 /**
  * 1015 德才论 (25 分)
@@ -61,6 +62,15 @@ public class Main_1015_超时_234 {
                 System.out.println(stus[i].id + " " + stus[i].scoreA + " " + stus[i].scoreB);
             }
         }
+
+        /* 依旧超时 */
+//        Formatter formatter = new Formatter(new StringBuilder());
+//        if (cnt != 0) {
+//            for (int i = 0; i < cnt; i++) {
+//                formatter.format("%d %d %d\n", stus[i].id, stus[i].scoreA, stus[i].scoreB);
+//            }
+//            System.out.print(formatter);
+//        }
     }
 
     static class Student {
